@@ -1,0 +1,9 @@
+
+
+services:
+  spam-api:
+    build: .
+    container_name: spam-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

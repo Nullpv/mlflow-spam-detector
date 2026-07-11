@@ -1,0 +1,7 @@
+env/
+.git/
+mlruns/
+__pycache__/
+*.pyc
+*.db
+.ipynb_checkpoints/

@@ -323,3 +323,19 @@ Saeed Solgi
 Master Student of Software Engineering
 
 Machine Learning | Backend Development | MLOps
+
+شروع پروژه
+
+1- source env/bin/activate
+
+2- uvicorn src.app:app --reload
+
+3- http://127.0.0.1:8000/docs
+
+4- python src/train.py
+
+5- python src/test_model.py
+
+6- python src/evaluate.py
+
+7- mlflow ui
